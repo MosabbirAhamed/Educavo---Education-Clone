@@ -1,0 +1,274 @@
+
+.primary-menu .container i.nav_bar{
+    display: none;
+    position: relative;
+}
+
+
+/* Medium ≥768px Tablet Display */
+@media(max-width: 767px) {
+
+.categoriesSelect{
+    display: none;
+}
+.topHeader{
+    display: none;
+}
+.search-cart{
+    display: none !important;
+}
+
+
+
+.nav-link{
+    margin: 5px 0px ;
+}
+.primary-menu .container{
+    display: flex;
+    padding: 20px 10px;
+}
+.primary-menu .container i.nav_bar{
+    display: block;
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+    font-size: 1.7em;
+    color:var(--primary-color);
+}
+#main-nav{ 
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mainMenuRight{
+    display: none !important;
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+    border-bottom: 1px solid #ddd;
+    padding-bottom:20px;
+}
+.mainMenu{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.nav_active {
+    display: flex !important;
+}
+ul.mainMenu li a,.categoriesSelect a{
+    padding: 10px 5px !important;
+}
+
+
+/* slider */
+.slider{
+    width: 100%;
+}
+.slider img {
+   object-fit: cover;
+}
+
+
+/* services */
+
+
+.services-box-singel {
+    width: 100% !important;
+}
+.services-box-wrapper{
+    flex-direction: column;
+}
+
+
+/* about */
+
+
+.about-box-wrapper{
+    flex-direction: column;
+    align-items: center;
+}
+.about-left {
+    width: 100% !important;
+    height: 100%;
+    padding-bottom: 40px;
+}
+.about-right-content-wrapper{
+    flex-direction: column;
+}
+.about-right-content {
+    width: 100% !important;
+    padding: 30px 0px !important;
+}
+.about-right-img {
+    height: 100% !important;
+    width: 100% !important;
+    margin-right: 0 !important;
+    padding-bottom: 20px;
+}
+.about-right-img-wrapper{
+    flex-direction: column;
+}
+
+.about-right{
+    width: 100% !important;
+}
+
+/* degree */
+.degree-wrapper {
+    flex-direction: column;
+}
+.degree-single-box {
+    width: 100% !important;
+    height: 379px;
+}
+
+/* partition */
+
+.partition-content-wrap{
+    flex-direction: column;
+    /* height: 100%; */
+}
+.partition_left_content {
+    width: 100% !important;
+    height: 300px !important;
+    padding: 150px 0px;
+    bottom: 0px !important;
+}
+.partition_right_content {
+    width: 100% !important;
+
+}
+.partition-cont-left-wrap {
+    bottom: 0px !important;
+    /* left: 35%; */
+}
+.partition-cont-left-wrap {
+    padding-bottom: 50px;
+}
+/* 
+latest-events */
+
+section#latest-events{
+    height: 100% !important;
+    margin-top: 150px;
+}
+.latest-events-wrapper {
+    height: 100% !important;
+    flex-direction: column;
+}
+.latest-events-right {
+    width: 100% !important;
+    height: 100%;
+}
+.latest-events-left {
+    width: 100% !important;
+    height: 100%;
+}
+
+
+/* testimonial */
+
+.testimonial-wrapper{
+    flex-direction: column;
+}
+.testimonial-left {
+    width: 100% !important;
+    padding-right: 80px;
+    height: 100%;
+}
+.testimonial-right {
+    width: 100% !important;
+}
+.testimonial-right-1 {
+    padding: 8px 10px !important;
+    margin-top: 40px; 
+}
+.testimonial-right-2 {
+    padding: 8px 10px !important;
+}
+.testimonial-img {
+    width: 300px;
+
+}
+.testimonial-img img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.testimonial-con h2 {
+    font-size: 18px !important;
+}
+
+
+
+.newsletter-wrap{
+    flex-direction: column !important;
+}
+
+.newsletter-left {
+    width: 100% !important;
+    padding-bottom: 30px;
+}
+
+.newsletter-right {
+    width: 100% !important;
+}
+.footer-top-box h2 {
+    padding-bottom: 20px !important; 
+}
+.footer-top-wrap{
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+}
+.footer-top-box {
+    width: 100% !important;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.footer-bottom-wrap{
+    flex-direction: column;
+}
+.footer-img {
+    width: 100% !important;
+}
+.footer-rights {
+    width: 100% !important;
+    padding: 30px 0px;
+}
+.footer-sosal {
+    width: 100% !important;
+}
+#mainHeader{
+    position: sticky;
+    top: 0px !important;
+    left:0;
+    z-index: 9999999999;
+}
+.footer-top-wrap{
+    padding-top: 200px !important;
+    padding-bottom: 50px !important;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Small ≥576px Mobile Display */
+@media (max-width: 575px) {
+
+    section#latest-events{
+        margin-top: 250px !important;
+    }
+
+
+
+
+
+    
+}
